@@ -1,0 +1,30 @@
+{
+  "name": "xbeemodule",
+  "version": "1.0.0",
+  "description": "pruebas desarrollo de xbee para proyecto BlueSensor",
+  "main": "main.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evangeline24/XBeeModule.git"
+  },
+  "keywords": [
+    "Evangeline24"
+  ],
+  "author": "Ana Jara",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evangeline24/XBeeModule/issues"
+  },
+  "homepage": "https://github.com/evangeline24/XBeeModule#readme",
+  "dependencies": {
+    "package.json": "^2.0.1",
+    "path": "^0.12.7",
+    "serialport": "^10.4.0"
+  },
+  "devDependencies": {
+    "electron-rebuild": "^3.2.7"
+  }
+}
