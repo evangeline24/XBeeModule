@@ -433,12 +433,7 @@ Driver o controlador de dispositivos es un pequeño software que conecta el sist
 
 [![osi.png](https://i.postimg.cc/9fPgLdHv/osi.png)](https://postimg.cc/kV4y4t4c)
 
-#### Modelo OSI
-
-En la 
-
-En el nivel de enlace de datos o nivel de trama( Frame ) o Marco , se ensamblan lis datos de las tramas y las transmite a travéz del medio (LAN o WAN). Es el nivel encargado de ofrecer un control de flujo entre tramas asi como un sencillo mecanismo para detectar errores; es decir que en este nivel y mediante algoritmos como CRC se podrá validar la integridad física de la trama más no será corregida a este nivel sino que se le notificará al transmisor para su retransmisión. En este nivel se lleva a cabo el direccionamiento físico de la información, es decir se leerán los encabezados que definen las direcciones de los nodos (WAN) o segmentos (LAN) 
-
+#### PROPUESTAS DE SOLUCIONES PARA CONTROLAR PERDIDA DE INFORMACIÓN ENTRE NODOS
 
 
 1. Enviando mensajes más pequeños que el tamaño del buffer de DI. 
